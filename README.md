@@ -1,10 +1,10 @@
 # heat map summarization
 
 ## Requirements <br />
-seaborn
-pandas
-numpy
-matplotlib
+* seaborn
+* pandas
+* numpy
+* matplotlib
 
 ## HRED <br />
 
