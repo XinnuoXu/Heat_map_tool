@@ -10,8 +10,12 @@ This reposite create heat maps for each document in [XSUM](https://github.com/Ed
 
 ## Quick Start <br />
 
-The cosine distances have been pre-calculated and stored in directory `csv_files`. The directories in `csv_files` is named as the document id. 
+The cosine distances have been pre-calculated and stored in directory `csv_files`. The directories in `csv_files` is named as the document id. Run `ipython notebook` and open `heat_map.ipynb`. Replace the `8004` in the following line with the document id you are interested in. 
 
 ```
 plot_doc('8004')
 ```
+
+Run all cells in the `heat_map.ipynb`. The heat maps of each document sentence and reference summary will appear. 
+
+![alt text](https://github.com/XinnuoXu/heat_map_summarization/blob/master/show_case.png)
